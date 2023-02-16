@@ -20,7 +20,6 @@ struct ContentView: View {
     ]
     
     var body: some View {
-//        let _ = Self._printChanges()
         NavigationStack {
             List {
                 ForEach(fruitArray.indices, id: \.self) { index in
